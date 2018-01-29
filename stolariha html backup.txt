@@ -33,17 +33,17 @@
   <link href="lib/animate-css/animate.min.css" rel="stylesheet">
   
   <!-- Main Stylesheet File -->
- <!--
-  <link href="public/css/main.css" rel="stylesheet"> //sass od prije sam
-
   <link href="css/style.css" rel="stylesheet">
-   -->
-  <!-- Main Sass -->
-  <link rel="stylesheet" href="css/stylesass.min.css">
-
+  
+  <!-- Bootstrap CSS File min    
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  -->
   <!--Bootstrap CSS File -->
   <link href="css/bootstrap.css" rel="stylesheet">
   
+
+    <!-- Custom styles for footer -->
+    <link href="css/sticky-footer.css" rel="stylesheet">
   
 <!-- =======================================================
   Author: Darko Stoičić
@@ -55,6 +55,9 @@
 <ul class="nav nav-tabs nav-justified fixed-bottom navbar-light bg-light">
   <li class="nav-item">
     <a class="nav-link" href="#"> <div class="home-icon"><i class="fa fa-home"></i></div></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#"><div class="usluge-icon"><img src="img/industry_hammer-saw-512.png" alt="usluge" height="22em" width="23em"></div></a>
   </li>
     <li class="nav-item">
     <a class="nav-link" href="#test"><div class="service-icon"><i class="fa fa-picture-o"></i></div></a>
@@ -78,7 +81,7 @@
     <div class="hero-container">
       <div class="wow fadeIn">
         <div class="hero-logo">
-          <img class="" src="img/LOGO BIG.png" alt="LOGO Babić Stolarija">
+          <img class="" src="img/LOGO BIG.png" alt="LOBO Babić Stolarija">
         </div>
         
         <h1>Babić stolarija je ime za kvalitetu izrade i kvalitetu materijala</h1>
@@ -94,13 +97,13 @@
 
 <!-- side by side materijali kvaliteta -->
 <section id="subscribe">
-<div class="container-fluid">
+<div class="container-fluid" style="background-color:#b67a4e">
 	<div class="row">
     	<div class="container col-lg-6">
             <img src="img/wood1materials.jpeg" width="100%" height="100%" alt="materijali">
-            	<div class="centered" style="text-align:center; text-wrap:suppress">
-                	<p>MATERIALS</p>
-               		<p>Frazne vrste materijala.</p>
+            	<div class="centered">
+                	<h1>MATERIALS</h1>
+               		<h4>From straight flight stairs to winding staircases, and sophisticated banisters and balustrades, our skilled joiners know how to get the very best out of the timber they use to make your vision a reality.</h4>
                 	        <a href="#" class="btn btn-get-started">Naše usluge</a>
                 </div>
         </div>
@@ -108,7 +111,7 @@
         	<img src="img/kvaliteta.jpeg" width="100%" height="100%" alt="materijali">
             	<div class="centered">
                 	<h1>MATERIALS</h1>
-               		<h4>Više o kvaliteti</h4>
+               		<h4>From straight flight stairs to winding staircases, and sophisticated banisters and balustrades, our skilled joiners know how to get the very best out of the timber they use to make your vision a reality.</h4>
                 </div>
         </div>
     </div>
@@ -148,24 +151,16 @@
 
 </section>
 
-
+<!-- paragraf test
+<section id="test">
+<h1>Selects the given tab and shows its associated pane. Any other tab that was previously selected becomes unselected and its associated pane is hidden. Returns to the caller before the tab pane has actually been shown (i.e. before the shown.bs.tab event occurs).Selects the given tab and shows its associated pane. Any other tab that was previously selected becomes unselected and its associated pane is hidden. Returns to the caller before the tab pane has actually been shown (i.e. before the shown.bs.tab event occurs).Selects the given tab and shows its associated pane. Any other tab that was previously selected becomes unselected and its associated pane is hidden. Returns to the caller before the tab pane has actually been shown (i.e. before the shown.bs.tab event occurs).Selects the given tab and shows its associated pane. Any other tab that was previously selected becomes unselected and its associated pane is hidden. Returns to the caller before the tab pane has actually been shown (i.e. before the shown.bs.tab event occurs).Selects the given tab and shows its associated pane. Any other tab that was previously selected becomes unselected and its associated pane is hidden. Returns to the caller before the tab pane has actually been shown (i.e. before the shown.bs.tab event occurs).Selects the given tab and shows its associated pane. Any other tab that was previously selected becomes unselected and its associated pane is hidden. Returns to the caller before the tab pane has actually been shown (i.e. before the shown.bs.tab event occurs).Selects the given tab and shows its associated pane. Any other tab that was previously selected becomes unselected and its associated pane is hidden. Returns to the caller before the tab pane has actually been shown (i.e. before the shown.bs.tab event occurs).Selects the given tab and shows its associated pane. Any other tab that was previously selected becomes unselected and its associated pane is hidden. Returns to the caller before the tab pane has actually been shown (i.e. before the shown.bs.tab event occurs).Selects the given tab and shows its associated pane. Any other tab that waab that was previously selected becomes unselected and its associated pane is hidden. Returns to the caller before the tab pane has actually been shown (i.e. before the shown.bs.tab event occurs).</h1>
+</section>
+ -->
 
 <!-- footer -->
 <footer class="footer">
-      <div class="container-fluid">
-        <div class="row">
-        	<div class="container col-lg-4" style="text-align:center">
-            	<img src="img/LOGO BIG.png" alt="Stolarija Babić" width="50%" height="50%">
-            </div>
-            <div class="container col-lg-4">
-                <h6>Tompkins is one of the region’s most well established <br>and successful joinery companies having been fulfilling customer needs <br>in bespoke timber for over 30 years.</h6>
-            </div>
-            <div class="container col-lg-4">
-            	<h5>Babić Stolarija d.o.o</h5>
-                <h6>Gornje Stative 56 <br>47280, Karlovac <br>Tel: 01327 877187 <br>Email: 
-                info@tompkinsjoinery.co.uk</h6>
-            </div>
-        </div>
+      <div class="container">
+        <span class="text-muted">Place sticky footer content here.</span>
       </div>
  </footer>
  
@@ -184,7 +179,7 @@
   <script src="lib/stickyjs/sticky.js"></script>
   <script src="lib/easing/easing.js"></script>
 	<!--skripta za popover kod dropdowna-->
-	<script src="js/bootstrap.bundle.js"></script>
+	<script src="bootstrap-4.0.0-beta.3/dist/js/bootstrap.bundle.js"></script>
 
 
  </body>
