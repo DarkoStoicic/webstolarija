@@ -1,0 +1,47 @@
+var images = [
+{
+    url: "wyroby-naszych-partnerow-16.jpg",
+    caption: "Prelijepa stolarija",
+    info: "ovo je jednostavni opis"
+},
+{
+    url: "Akarana-ave-Mt-Roskill-Renovtion-After-Photo-Dining-room.png",
+    caption: "Prelijepa stolarija",
+    info: "ovo je jednostavni opis"
+},
+{
+    url: "bigstock-House-patio-with-wooden-table-20204447.jpg",
+    caption: "Prelijepa stolarija",
+    info: "ovo je jednostavni opis"
+},
+{
+    url: "bigstock-Nail-Gun-59783063.jpg",
+    caption: "Prelijepa stolarija",
+    info: "ovo je jednostavni opis"
+},
+{
+    url: "his-room-1-small.jpg",
+    caption: "Prelijepa stolarija",
+    info: "ovo je jednostavni opis"
+},
+{
+    url: "ms-bespoke-kitchen-slide-1.jpg",
+    caption: "Prelijepa stolarija",
+    info: "ovo je jednostavni opis"
+},
+{
+    url: "office-kingston-london-normal.jpg",
+    caption: "Prelijepa stolarija",
+    info: "ovo je jednostavni opis"
+},
+{
+    url: "Sayanas room3.jpg",
+    caption: "Prelijepa stolarija",
+    info: "ovo je jednostavni opis"
+},
+{
+    url: "splash-bedroom.jpg",
+    caption: "Prelijepa stolarija",
+    info: "ovo je jednostavni opis"
+},
+]
